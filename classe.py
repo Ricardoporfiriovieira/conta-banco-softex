@@ -39,7 +39,7 @@ class conta_banco:
             print(f"a tentativa de saque foi de: {dinheiro_debitado}")
     
     
-                
+#usei o método "creditar" como o método de incremento pois ele adiciona dinheiro na conta            
 
 conta1 = conta_banco("bruna", "457834758")
 conta1.creditar(1000)
